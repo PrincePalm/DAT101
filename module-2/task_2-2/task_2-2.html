@@ -12,31 +12,39 @@
     <ol>
       <li>Where should you use constants, and where should you use variables? Can they all be constants?</li>
       <p>
-				Replace this with you answer
+				Constants should be used for values that do not change throughout the program. 
+        Variables should be used for values that can change. That means they cannot all be constants.
 			</p>
       <li>How do parentheses affect the arithmetic outcome of an expression?</li>
       <p>
-				Replace this with you answer
+				Parentheses control the order of which the operations are performed in an expression. 
+        So what's inside the parentheses goes first.
 			</p>
       <li>How do we limit floating-point numbers to a given number of decimals?</li>
       <p>
-				Replace this with you answer
+				We can limit the decimals using toFixed(). If we write 13.91478.toFixed(2) it will round to 13.91.
 			</p>
       <li>How can we compare two floating-point values to see if they are equal (is 12.199999 the same as 12.2)?</li>
       <p>
-				Replace this with you answer
+				We can use isEqual = Math.abs(a - b) < 0.000001 to check if they are equal. 
+        This has a check accuracy up to 6 decimals.
 			</p>
       <li>What do comparison operators return, and how can we check if they are FALSE or TRUE?</li>
       <p>
-				Replace this with you answer
+				Comparison operators return a boolean value, true / false. 
+        We can check if they are true or false using an if statement or by printing in the console. 
+        x= 5, y= 3  if (x > y) {console.log(true)}. console.log(x > y) will return true.
 			</p>
       <li>How does the Math.random() function work, and what can it be used for?</li>
       <p>
-				Replace this with you answer
+				Math.random() generates a random number between 0 and 1. But it does not include 1, only the numbers in between.
+        If we write Math.random() * 10 it generates a random number between 0 and 10, Which can be really useful.
 			</p>
       <li>What is modulus (%), and when do we need this operator in mathematical operations?</li>
       <p>
-				Replace this with you answer
+				The modulus (%) tells us how much remains after dividing a number. 
+        So 12 % 4 would return 0, because there is no remainder.
+        While 10 % 3 would return 1, since 10 divided by 3 has 1 remaining.
 			</p>
     </ol>
 		<script type="module" src="./task_2-2.mjs" defer></script>
